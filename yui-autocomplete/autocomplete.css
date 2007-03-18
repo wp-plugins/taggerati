@@ -1,0 +1,52 @@
+#taggeratiautocomplete { 
+    position: relative; width: 15em; 
+    top: 1em;
+    margin-bottom: 0; z-index: 9000;
+}
+
+#taggeratiautocomplete strong {
+	width: 200px;
+}
+
+#taggeratiautocomplete legend {
+	height: 1em;
+	line-height: 1em;
+	font-weight: bold;
+}
+input#tgTextInput {
+	width: 100px;
+	position: relative;
+	left: 80px;
+	bottom: 1em;
+	height: 1em;
+	margin: 0;
+}
+
+#searchContainer { position: absolute; top: 1.5em; left: 80px; width: 100%; }
+#searchContainer .yui-ac-content { 
+    position: absolute; width: 100%; 
+    border: 1px solid #404040; background: #fff; 
+    overflow: hidden; z-index: 9050;
+}
+
+#searchContainer ul { padding: 0 0; width: 100%; }
+div#searchContainer ul li { 
+    padding: 0 1px; cursor: default; 
+    white-space: nowrap;
+    color: #000;
+    margin: 0;
+}
+#searchContainer li.yui-ac-highlight { background: #ccc; }
+#searchContainer li.yui-ac-prehighlight { background: #999; }
+
+div#taggerati-tagcloud a {
+	display: inline;
+	text-decoration: none;
+}
+
+div#taggerati-tagcloud p {
+	margin: 0;
+}
+div#taggerati-tagcloud p#tgrfooter {
+	margin-top: 1em;
+}

@@ -1,0 +1,6 @@
+1.3
+
+- Made URL rewriting actually work (thanks Elliott!)
+- Fixed a bug that caused a nasty error on some installs when trying
+  to activate the plugin
+- Fixed a bug that caused <itag> to strip the tagged word from the content
